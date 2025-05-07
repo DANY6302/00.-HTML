@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nuevo Facebook</title>
+    <!-- style va en el head atributo interno -->
+    <style> 
+        body {background-color: powderblue;} 
+        p{color: blue;}
+        h1{color: magenta;}
+    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Atributo externo -->
 </head>
 <body>
 
-    <!--Clase del martes 29 de Abril -->
+    <!--Clase del martes 29 de Abril  -->
     <h1>Hello Class</h1>
     <Article> <!--Esta es la etiqueta articulo -->
         <h1>Titulo mis peliculas</h1>
@@ -26,11 +33,21 @@
     <audio src="GrammarFocus.mp3" controls loop></audio> <!--Esta es la etiqueta de audios -->
     <br> <!--Salto de linea -->
 
-    <!--Clase del miercoles 30 de Abril -->
-    <video controls> <!--Etiqueta de video repasar los diferentes atributos puestos en moddle-->
+    <!--Clase del miercoles 30 de Abril VIDEO y BARRA DE PROGRESO-->
+    <video controls width="300px"> <!--Etiqueta de video repasar los diferentes atributos puestos en moddle-->
         <source src="beningin.mp4" type="video/mp4">
     </video>
     <p>Progress</p><progress min="0" max="100" value="35"></progress><!--Etiqueta de barra de progreso-->
+
+
+
+
+    <!--Clase del martes 6 de Mayo-->
+    <h1 style="color: red;">Este es un h1 rojo</h1> <!-- (atributo en linea) -->
+    <p class="rebelde">Este es un parrafo especial con clase Rebelde</p>
+    <p id="especial">Este es un parrafo especial con id especial</p>
+    
+
 
 </body>
 </html>

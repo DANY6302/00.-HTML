@@ -1,0 +1,46 @@
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {
+    margin: 30px;}
+
+p.rebelde {
+    color: yellow;
+}
+
+#especial {
+    color: green;
+}
+
+
+
+/*
+La propiedad de "color" en CSS define el color del texto que se utilizará.
+La propiedad en CSS "font-family" define la fuente que se utilizará.
+La propiedad CSS "font-size" define el tamaño del texto para ser utilizado.
+La propiedad "border" CSS define un borde alrededor de un elemento HTML
+La propiedad "padding" CSS define un acolchado (espacio) entre el texto y el borde
+El atributo id sirve para definir un estilo específico para un elemento especial
+El atributo de clase sirve para definir un estilo para un tipo especial de elementos
+
+h1 {
+    font-family: Verdana;
+    font-size: 300%;
+}
+
+p {
+    color: red;
+    font-family: Courier;
+    font-size: 160%;
+    border: 1px solid red;
+    padding: 2px
+    margin: 10px
+}
+
+#parrafo_especial {
+    color: magenta;
+}
+
+p.otro_parrafo_especial {
+    color: green;
+}
+*/
