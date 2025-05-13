@@ -1,5 +1,13 @@
-body {background-color: powderblue;}
-h1 {color: blue;}
+body {background-color:powderblue;}
+h1 {
+    color: blue;
+    font-family:'Courier';
+    font-size: 100%;
+    border: 3px solid yellow;
+    padding: 20px;
+    text-align: center;
+
+}
 p {
     margin: 30px;}
 
@@ -21,26 +29,6 @@ La propiedad "border" CSS define un borde alrededor de un elemento HTML
 La propiedad "padding" CSS define un acolchado (espacio) entre el texto y el borde
 El atributo id sirve para definir un estilo específico para un elemento especial
 El atributo de clase sirve para definir un estilo para un tipo especial de elementos
+La propiedad de "text-aling" en CSS define la alineacion del texto respecto a su contenedor inmediato.
 
-h1 {
-    font-family: Verdana;
-    font-size: 300%;
-}
-
-p {
-    color: red;
-    font-family: Courier;
-    font-size: 160%;
-    border: 1px solid red;
-    padding: 2px
-    margin: 10px
-}
-
-#parrafo_especial {
-    color: magenta;
-}
-
-p.otro_parrafo_especial {
-    color: green;
-}
 */
